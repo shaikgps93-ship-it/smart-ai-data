@@ -5,6 +5,7 @@ import Features from "../components/common/Features";
 import HowItWorks from "../components/common/HowItWorks";
 import Industries from "../components/common/Industries";
 import Pricing from "../components/common/Pricing";
+import FAQ from "../components/common/FAQ";
 export default function Home() {
   return (
     <>
@@ -15,6 +16,7 @@ export default function Home() {
       <HowItWorks />
       <Industries />
       <Pricing />
+      <FAQ />
     </>
   );
 }
