@@ -3,6 +3,7 @@ import Hero from "../components/common/Hero";
 import Stats from "../components/common/Stats";
 import Features from "../components/common/Features";
 import HowItWorks from "../components/common/HowItWorks";
+import Industries from "../components/common/Industries";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Stats />
       <Features />
       <HowItWorks />
+      <Industries />
     </>
   );
 }
